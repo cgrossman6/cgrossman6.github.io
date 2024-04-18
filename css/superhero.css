@@ -10,15 +10,9 @@
     src: url('fonts/OpenSans.ttf');
 }
 
-@font-face
-{
-    font-family: Dune;
-    src: url('fonts/Quantum.ttf')
-}
-
 *
 {
-    font-family: 'Dune';
+    font-family: 'Arial';
 }
 
 table img
@@ -41,7 +35,7 @@ th
 }
 th ~ td
 {
-    font-family: "Comic Sans MS";
+    font-family: "Cursive";
     border: 1px dotted black;
     padding-left: 15px;
     padding-right: 15px;
@@ -63,7 +57,7 @@ li{
 h1
 {
     font-size: 3vw;
-    font-family: 'Dune';
+    font-family: 'Arial';
 }
 body > img
 {
