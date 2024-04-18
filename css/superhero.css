@@ -26,7 +26,7 @@ table, th
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
-    font-family: "Comic Sans MS";
+    font-family: Papyrus;
 }
 th
 {
@@ -35,7 +35,7 @@ th
 }
 th ~ td
 {
-    font-family: "Cursive";
+    font-family: Papyrus;
     border: 1px dotted black;
     padding-left: 15px;
     padding-right: 15px;
