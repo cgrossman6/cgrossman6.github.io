@@ -12,7 +12,6 @@ h1 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
-    color: #333; /* Custom color */
 }
 
 h2 {
@@ -46,7 +45,7 @@ a {
 }
 
 body {
-    background-color: #fff; /* Custom background color */
+    background-color: gray;
 }
 
 img {
