@@ -10,7 +10,7 @@
     <h1>Baseball Team Search</h1>
     <form action="https://www.google.com/search" method="GET">
       <p>
-        <label for="selectfish">Select a Baseball Team:</label>
+        <label for="selectteam">Select a Baseball Team:</label>
         <select name="q" id="selectteam">
           <option value="new york mets">Mets</option>
           <option value="tampa bay rays">Rays</option>
@@ -32,6 +32,20 @@
           <label for="radiopng">GIF</label>
           <input type="radio" name="as_filetype" value="gif" id="radiopng">
         </p>
+        <fieldset>
+          <p>
+            <input type="checkbox" name="newwindow" value="1" id="checkwindow">
+            <label for="checkwindow">Open Links in New Window</label>
+          </p>
+          <p>
+            <input type="checkbox" name="pws" value="o" id="checkpersonal">
+            <label for="checkpersonal">Exclude personal results</label>
+          </p>
+           <p>
+            <input type="checkbox" name="as_occt" value="url" id="checkurl">
+            <label for="checkurl">Limit Search to URLs</label>
+          </p>
+        </fieldset>
       </fieldset>
       <p style="display:none">
         <label for="imagecheck">Images</label>
